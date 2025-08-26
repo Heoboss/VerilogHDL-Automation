@@ -24,17 +24,17 @@ Verilog 모듈 정의 코드를 붙여넣기만 하면, 복잡한 인스턴스�
 
 **사전 준비**: PC에 **Python 3**가 설치되어 있어야 합니다.
 
-1.  이 리포지토리를 클론하거나 `instance.py` 파일을 다운로드합니다.
+1.  이 리포지토리를 클론하거나 `auto_instance.py` 파일을 다운로드합니다.
 2.  터미널(CMD, PowerShell 등)을 열고 스크립트가 있는 폴더로 이동합니다.
 3.  아래 명령어를 입력하여 스크립트를 실행합니다.
     ```bash
-    python instance.py
+    python auto_instance.py
     ```
 4.  화면에 나타나는 안내에 따라 Verilog 모듈 코드를 붙여넣고, 모드를 선택한 뒤 필요한 정보를 입력합니다.
 
 ### 2. Windows 실행 파일 (.exe)로 실행
 
-1.  `dist` 폴더에 있는 `instance.exe` 파일을 다운로드합니다.
+1.  `dist` 폴더에 있는 `auto_instance.exe` 파일을 다운로드합니다.
 2.  파일을 더블클릭하여 실행합니다.
 3.  파이썬 스크립트와 동일하게 화면 안내에 따라 진행합니다.
 
@@ -52,7 +52,7 @@ Verilog 모듈 정의 코드를 붙여넣기만 하면, 복잡한 인스턴스�
 2.  **빌드 명령어 실행**
     스크립트가 있는 폴더에서 아래 명령어를 실행하면 `dist` 폴더 안에 `instance.exe` 파일이 생성됩니다.
     ```bash
-    pyinstaller --onefile instance.py
+    pyinstaller --onefile auto_instance.py
     ```
 
 ---
